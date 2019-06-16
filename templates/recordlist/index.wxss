@@ -1,0 +1,202 @@
+.flexlist .flexlist {
+    flex: 1;
+    padding: 10rpx 10rpx 10rpx 0;
+    margin: 0;
+    align-items: center;
+    margin-left: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    line-height: 1.5;
+    position: relative;
+    border-bottom: 1rpx solid #e1e2e3
+}
+
+.cur,
+.cur .fm_tdes,
+.cur .flexmain view text,
+.cur .relistdes,
+.cur .flexnum {
+    color: #BB2C08 !important
+}
+
+.flexlist {
+    display: flex;
+    align-items: stretch;
+}
+
+.flexlist .flexlist .flexleft {
+    padding-right: 10rpx
+}
+
+.flexleft image {
+    vertical-align: middle
+}
+
+.flex-center {
+    align-items: center
+}
+
+.flexnum {
+    flex: 0 0 80rpx;
+    font-size: 30rpx;
+    color: #999;
+    text-align: center
+}
+
+.flexact {
+    text-align: right;
+    font-size: 24rpx;
+    color: #999;
+    display: flex
+}
+
+.flexmain {
+    box-sizing: border-box;
+    flex: 1;
+    overflow: hidden;
+}
+
+.fm_tdes {
+    font-size: 24rpx;
+    color: #999
+}
+
+.flexmain view {
+    word-break: keep-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 1.6;
+    width: 100%;
+    word-wrap: break-word
+}
+
+.flexmain view text {
+    color: #999;
+}
+
+.flexmain .lname {
+    max-height: 2.4em;
+    line-height: 1.2;
+    white-space: normal;
+}
+
+.relistdes {
+    color: #999;
+    font-size: 24rpx;
+    white-space: -2rpx;
+}
+
+.fa_pc {
+    opacity: .5;
+    padding-right: 15rpx;
+    flex: 1;
+    white-space: nowrap;
+    font-size: 26rpx;
+    line-height: 1
+}
+
+.fa_pc image {
+    width: 24rpx;
+    margin-right: 5rpx
+}
+
+.mvs .cover {
+    padding-top: 56%
+}
+
+.mvs {
+    padding-right: 15rpx
+}
+
+.albums .fl-image {
+    flex: 0 0 120rpx
+}
+
+.albums_wrap {
+    position: relative;
+}
+
+.albums_wrap .al-image {
+    position: absolute;
+    height: 100%;
+    width: 85.33%;
+    z-index: 10;
+    left: 0;
+    top: 0
+}
+
+.albums .fl-image .albums_cover {
+    position: absolute;
+    width: 118rpx;
+    height: 100rpx;
+    left: 0;
+    top: 0;
+    z-index: 0
+}
+
+.fa_list {
+    margin-left: 10rpx
+}
+
+.fa_mv image {
+    width: 56rpx;
+    height: 56rpx;
+}
+
+.fl-image {
+    position: relative;
+    padding: 10rpx 0;
+    margin: 0 20rpx
+}
+
+.flexlist .flexlist .fl-image {
+    padding: 0;
+    margin: 0 10rpx
+}
+
+.fl-image image {
+    width: 100rpx;
+    height: 100rpx;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1
+}
+
+.img_playcount {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #fff;
+    z-index: 1;
+    font-size: 24rpx;
+    padding: 8rpx 15rpx 8rpx 40rpx;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, .2));
+    max-width: 70%;
+    text-align: right;
+    min-width: 30%
+}
+
+.img_playcount image {
+    vertical-align: baseline;
+    margin-right: 10rpx;
+    position: relative;
+    width: 24rpx;
+    height: 24rpx;
+}
+
+.listheader {
+    margin: 25rpx 15rpx 10rpx;
+    overflow: hidden
+}
+
+.listheader:before {
+    display: inline-block;
+    width: 5rpx;
+    background-color: red;
+    height: .8em;
+    content: "";
+    vertical-align: middle;
+    margin-right: 15rpx;
+    border-radius: 10rpx;
+}

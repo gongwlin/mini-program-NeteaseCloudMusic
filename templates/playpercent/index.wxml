@@ -1,0 +1,71 @@
+<!-- 播放进度条 -->
+<template name="playingpercent">
+  <view class="playing-status">
+    <text class="time">{{playtime}}</text>
+    <progress percent="{{downloadPercent}}" color="#dadada" stroke-width="2">
+      <text class="playstate" style="left:{{percent}}%"></text>
+      <text class="dpstate" style="width:{{percent}}%"></text>
+      <slider bindchange="museek" color="#d33a31" left-icon="cancel" value="{{percent}}"/>
+    </progress>
+    <text class="time">{{duration}}</text>
+  </view>
+</template>
+
+
+<!-- 
+    .playing-status {
+    display: flex;
+    color: #fff;
+    margin: 20rpx
+}
+
+.playing-status progress {
+    width: 520rpx;
+    margin: 0 auto;
+    color: #000;
+    position: relative;
+    border-radius: 4rpx;
+}
+
+.playing-status .playstate {
+    position: absolute;
+    display: block;
+    height: 8rpx;
+    width: 8rpx;
+    overflow: hidden;
+    background-color: #d33a31;
+    border: 12rpx solid #fff;
+    border-radius: 50%;
+    top: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    z-index: 2;
+}
+
+.playing-status .dpstate {
+	position: absolute;
+	height: 2px;
+	width: 0;
+	background-color: #d33a31;
+	overflow: hidden;
+	left: 0;
+	top: 50%;
+	margin-top: -1px;
+}
+
+.playing-status .time {
+    width: 80rpx;
+    text-align: center;
+    display: block;
+    font-size: 24rpx;
+}
+
+.playing-status slider {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    opacity: 0;
+    z-index: 10
+}
+ -->

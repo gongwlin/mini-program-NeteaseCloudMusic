@@ -1,0 +1,2 @@
+<import src="../../templates/commentslist/index.wxml" />
+<template is="commentslist" data="{{rec:rec,loading:loading}}" />

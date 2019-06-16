@@ -1,0 +1,48 @@
+.menu .mn_list {
+    display: flex;
+    flex-flow: row;
+    align-items: stretch;
+    width: 100%;
+    justify-content: space-around
+}
+
+.menu .mn_list:last-child .cmain,
+.menu .mn_list:last-child .rdes {
+    border: none;
+}
+
+.menu .cmain {
+    flex: 1;
+    border-bottom: 1rpx solid #e1e2e3;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-right: 15rpx
+}
+
+.menu .mn_ico {
+    text-align: center;
+    padding: 20rpx
+}
+
+.menu .arrow {
+    display: inline-block;
+    margin: 0 15rpx;
+    vertical-align: middle;
+}
+
+.menu image {
+    vertical-align: top;
+}
+
+.menu .rdes {
+    text-align: right;
+    border-bottom: 1rpx solid #e1e2e3;
+    font-size: 28rpx;
+    color: #999;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end
+}

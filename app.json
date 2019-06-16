@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/index",
+    "pages/playlist/index",
+    "pages/mv/index",
+    "pages/playing/index",
+    "pages/login/index",
+    "pages/fm/index",
+    "pages/toplist/index",
+    "pages/recommend/index",
+    "pages/search/index",
+    "pages/album/index",
+    "pages/artist/index",
+    "pages/recsongs/index",
+    "pages/record/index",
+    "pages/me/index",
+    "pages/cloud/index",
+    "pages/program/index",
+     "pages/djradio/index",
+     "pages/simi/index",
+     "pages/new/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "Music",
+    "backgroundColor": "#fbfcfd",
+    "navigationBarBackgroundColor": "#BB2C08"
+  },
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}

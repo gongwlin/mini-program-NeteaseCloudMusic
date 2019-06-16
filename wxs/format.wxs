@@ -1,0 +1,8 @@
+function formatPlayCount(count) {
+  if (!count) return 0;
+  count = count && +count
+  return count > 10000 ? (count / 10000).toString().split('.')[0] + '万' : count
+}
+module.exports = {
+  formatPlayCount: formatPlayCount
+}

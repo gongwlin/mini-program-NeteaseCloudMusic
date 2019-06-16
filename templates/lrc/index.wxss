@@ -1,0 +1,92 @@
+.lrclist {
+    position: absolute;
+    left: 30rpx;
+    top: 10rpx;
+    right: 30rpx;
+    bottom: 260rpx;
+    text-align: center;
+    overflow: hidden;
+    color: #fff;
+    z-index: 3;
+}
+
+.lrcwrap {
+    top: 50%;
+    position: absolute;
+    font-size: 30rpx;
+    width: 100%;
+    transition: all ease 1s;
+    text-align: center;
+}
+
+.lrcwrap .lrcur {
+    opacity: 1;
+    font-size: 31rpx;
+    transition: all ease 1s;
+}
+
+.lrcwrap .siblings1 {
+    opacity: .3
+}
+
+.lrcwrap .siblings2 {
+    opacity: .1;
+}
+
+.lrcwrap view {
+    line-height: 1.2;
+    word-break: break-all;
+    opacity: .5;
+    height: 72rpx;
+    overflow: hidden;
+    transition: all ease .5s;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: center
+}
+
+.lrcwrap .notext {
+    text-align: center;
+    display: block
+}
+
+.lrcwrap view text {
+    display: block;
+    text-align: center;
+    width: 100%
+}
+
+.lrclist .cntloading {
+    top: 50%;
+    position: relative;
+}
+
+.lrclist:after,
+.lrclist:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 50%;
+    top: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .1));
+    opacity: .1;
+    display: none;
+    width: 100%;
+    z-index: 3;
+    filter: brightness(.1)
+}
+
+.lrclist:after {
+    top: auto;
+    bottom: 0;
+    transform: rotate(180deg)
+}
+
+.lrclist .cntloading {
+    position: absolute;
+    top: 50%;
+    color: #fff;
+    width: 100%;
+    margin-top: -16rpx;
+}
